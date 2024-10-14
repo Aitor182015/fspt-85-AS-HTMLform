@@ -23,7 +23,7 @@
                <!-- ORIGINAL FIRST ROW -->
                 <div class="col-5 text-start">
                   <label for="inputCard" class="form-label">Card #</label>
-                  <input type="number" class="form-control" placeholder="1234 1234 1234 1234" id="inputCard">
+                  <input type="number" class="form-control" placeholder="1234 1234 1234 1234" id="inputCard required">
                 </div>
                 <div class="col-3 text-start">
                   <label for="inputSecurityCode" class="form-label">CVC #</label>
@@ -64,25 +64,27 @@
                     <!-- ORIGINAL LAST ROW -->
                      <!-- RADIO INLINE LIST -->                     
                     
-                     <div class="col-4 text-center text-bg-secondary h-25 rounded-3 p-2">                                   
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="MasterCard">
-                        <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard"></i></label>
-                      </div>
+                     <div class="col-6 pb-3">
+                      <p for="exampleAccount" class="text-start">We accept:</p>
+                    <div class="text-center text-bg-secondary h-25 rounded-3 p-2 d-flex">                                   
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Visa">
-                        <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa"></i></label>
-                      </div>
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="DinersClub">
-                        <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-diners-club"></i></label>
-                      </div>
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="AmericanExpress">
-                        <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-amex"></i></label>
-                      </div>                      
-                  </div>
-                  <div class="col-2"></div>
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="MasterCard">
+                          <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Visa">
+                          <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="DinersClub">
+                          <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-diners-club"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="AmericanExpress">
+                          <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-amex"></i></label>
+                        </div>                      
+                    </div>
+                    </div>
                   <!-- TEXTAREA -->
                   <div class="col-6 text-start">
                     <label for="floatingTextarea2" class="form-label text-start">Message</label>
@@ -97,10 +99,19 @@
         <div class="card-footer text-body-secondary">
             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                 <button class="btn btn-secondary me-md-2" type="button">Cancel</button>
-                <button class="btn btn-primary" type="button">Send</button>
+                <button class="btn btn-primary" type="submit">Submit</button>
               </div>
         </div>
       </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
+
+
+
+<!-- COSAS A COMENTAR EN MENTORÍA:
+ BACKGROUND DE LAS TARJETAS,
+ BOTÓN SUBMIT COMO HACER QUE FUNCIONE. -->
+
+ <!-- por otro lado me queda por hacer la web responsive ajustando el tamaño de col-- lg,md y sm  -->
