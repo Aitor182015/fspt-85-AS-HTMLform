@@ -9,3 +9,7 @@
 .payment-options {
     width: 250px; 
 }
+
+body {
+    margin-bottom: 15px;
+}
